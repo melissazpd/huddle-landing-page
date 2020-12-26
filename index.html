@@ -6,29 +6,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
+  <!-- links CSS page -->
   <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <!-- links social media icons -->
+  <script src="https://kit.fontawesome.com/0c65ac0e0f.js" crossorigin="anonymous"></script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- google fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 </head>
 
 <body>
 
-  Build The Community Your Fans Will Love
+  <!-- overall container -->
+  <div class="container">
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-  Create connections with your users as you engage in genuine discussion.
 
-  Register
+    <!-- section with header -->
+    <div id="header" class="section">
+      <img src="images/logo.svg" alt="">
+    </div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Melissa Zepeda</a>.
-    </p>
-  </footer>
+
+    <!-- middle section with images and text -->
+    <div class="section">
+      <div class="content">
+        <img src="images/illustration-mockups.svg" alt="">
+      </div>
+      <div class="content copywrite">
+        <h2>Build The Community Your Fans Will Love</h2>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.</p>
+        <button>Register</button>
+      </div>
+    </div>
+
+
+    <!-- bottom section with icons -->
+    <!-- Unable to get a thin circle around the icon.
+  I used FA Font and the light version is PRO. -->
+    <div id="footer" class="section">
+      <div>
+        <a href="">
+          <span class="fa-stack">
+            <i class="far fa-circle fa-stack-2x"></i>
+            <i class="fab fa-facebook-f fa-stack-1x"></i>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <span class="fa-stack">
+            <i class="far fa-circle fa-stack-2x"></i>
+            <i class="fab fa-twitter fa-stack-1x"></i>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <span class="fa-stack">
+            <i class="far fa-circle fa-stack-2x"></i>
+            <i class="fab fa-instagram fa-stack-1x"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- footnotes -->
+    <div class="attribution section">
+      <div>
+        <p>
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Melissa Zepeda</a>.
+        </p>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
 </body>
 
 </html>
