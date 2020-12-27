@@ -87,8 +87,17 @@ button:hover {
 }
 
 @media screen and (max-width: 375px) {
-    body, .container {
-        background-color: #674bb1;
+    body {
+        background: #674bb1 url('images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        width: 85%;
+        justify-content: center;
+    }
+
+    .container {
+        background: none;
         width: 85%;
         justify-content: center;
     }
